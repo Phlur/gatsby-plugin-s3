@@ -1,12 +1,13 @@
 {
-    "name": "gatsby-plugin-s3",
-    "version": "0.3.1",
+    "name": "@phlur/gatsby-plugin-s3",
+    "version": "0.3.2",
     "description": "Enables you to deploy your gatsby site to a S3 bucket.",
     "main": "bin.js",
     "bin": "bin.js",
     "scripts": {
         "test": "jest",
         "prepublish": "npm run build",
+        "prepare": "npm run build",
         "build": "tsc --project .",
         "typecheck": "tsc --project . --noEmit",
         "develop": "babel --extensions=\".ts\" --out-dir=. src/ -w"
