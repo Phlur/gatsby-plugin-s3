@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-plugin-s3",
-  "version": "0.3.2",
+  "name": "@phlur/gatsby-plugin-s3",
+  "version": "0.3.3",
   "description": "Enables you to deploy your gatsby site to a S3 bucket.",
   "main": "bin.js",
   "bin": "bin.js",
@@ -11,11 +11,11 @@
     "typecheck": "tsc --project . --noEmit",
     "develop": "babel --extensions=\".ts\" --out-dir=. src/ -w",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jariz/gatsby-plugin-s3.git"
+    "url": "git+https://github.com/phlur/gatsby-plugin-s3.git"
   },
   "keywords": [
     "gatsby",
